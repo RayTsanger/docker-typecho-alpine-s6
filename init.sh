@@ -2,7 +2,7 @@
 
 ROOT_DIR=`pwd`
 rm -rf typecho
-git clone -b nanodm --recurse-submodules https://github.com/ttys3/typecho.git && \
+git clone -b nanodm --recurse-submodules https://github.com/typecho/typecho.git && \
 cd typecho/usr/themes && \
 git clone https://github.com/Dreamer-Paul/Single.git single  && \
 git clone https://github.com/ttys3/typecho-theme-amaze.git amaze && \
